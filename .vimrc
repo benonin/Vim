@@ -1,12 +1,12 @@
 " basic settings ------------------- {{{
 let mapleader=","
 let maplocalleader=","
-"set relativenumber
-set number
-set numberwidth=4
-set tabstop=4
-set wrap
-set foldlevel=0
+"let &relativenumber=1
+let &number=1
+let &numberwidth=4
+let &tabstop=4
+let &wrap=1
+let &foldlevel=0
 " }}}
 " statusline settings ------------------- {{{
 set laststatus=2		"statusline always on
