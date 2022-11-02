@@ -127,6 +127,7 @@ autocmd FileType c,cpp nnoremap <buffer> <localleader>c I//<esc>
 autocmd FileType c,cpp iabbrev <buffer> buffer> iff if ()<left>
 autocmd FileType c,cpp onoremap <buffer> ih :<c-u>execute "normal! ?^\/\*\{2,}\/$\r:nohlsearch\rkfg_"<cr>
 autocmd FileType c,cpp onoremap <buffer> ah :<c-u>execute "normal! ?^\/\*\{2,}\/$\r:nohlsearch\rg_vk0"<cr>
+autocmd FileType c,cpp vim setlocal foldmethod=potion
 augroup END
 " }}}
 " Vimscript file settings ------------------- {{{
